@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Lens | AI-Powered Comment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Comment<span>Lens</span></div>
+            <h1>Unlock Insights from Every Comment</h1>
+            <p>Paste a URL and let Gemini AI find pain points, questions, and viral hook ideas.</p>
+        </header>
+
+        <main>
+            <div class="input-card glass">
+                <input type="text" id="urlInput" placeholder="Enter social media URL (e.g., YouTube video)...">
+                <button id="analyzeBtn">Analyze Now</button>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Gemini is deep-diving into the discussions...</p>
+            </div>
+
+            <div id="results" class="hidden">
+                <div class="result-grid">
+                    <section class="result-card glass">
+                        <h2>⚠️ Common Pain Points</h2>
+                        <ul id="painPoints"></ul>
+                    </section>
+                    
+                    <section class="result-card glass">
+                        <h2>❓ Frequent Questions</h2>
+                        <ul id="frequentQuestions"></ul>
+                    </section>
+
+                    <section class="result-card glass highlight">
+                        <h2>🚀 Viral Hook Ideas</h2>
+                        <ul id="hookIdeas"></ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Comment Lens AI. Built with ❤️ and Gemini.</p>
+        </footer>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>

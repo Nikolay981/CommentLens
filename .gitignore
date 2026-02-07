@@ -1,0 +1,6 @@
+.env
+node_modules
+*.txt
+src/test-*.js
+src/check-*.js
+src/diagnostic.js
