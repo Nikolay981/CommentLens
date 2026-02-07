@@ -2,7 +2,8 @@
 
 CommentLens is a powerful, AI-driven tool designed to help content creators and marketers understand their audience better. It fetches real-time comments from any YouTube video and uses the Gemini AI to provide actionable insights.
 
-![CommentLens Mockup](https://raw.githubusercontent.com/Nikolay981/CommentLens/main/public/index.html) *Note: Replace with a real screenshot once available*
+<img width="1769" height="1141" alt="image" src="https://github.com/user-attachments/assets/30ea0c90-2dff-4cd7-8ed2-15e3d7f2cf0d" />
+
 
 ## ✨ Features
 
